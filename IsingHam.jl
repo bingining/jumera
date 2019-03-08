@@ -2,7 +2,7 @@
 # Returns three-site Ising Hamiltonian (8x8 matrix), and the highest energy eigenvalue
 # WITHOUT IMPOSING anti/periodic BCs
 
-typealias Float Float64
+const Float = Float64
 
 using DocStringExtensions
 
